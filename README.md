@@ -2,8 +2,7 @@
 Stream video from your Raspberry Pi to the Internet
 
 ## Installation
-Download the `install.sh` file from this repository. In a command line terminal navigate to the directory with the downloaded file.
-Then run `sh install.sh`. If no errors occur, you can run `python main.py` to start up the server.
+Run `git clone https://github.com/jacksoncoder/pystreamer-http` to clone the repository to your Pi. Then run `cd pystreamer-http` to go into the right directory, and then run `sh install.sh` to install all dependencies. If no errors occur, you will be able to run `python main.py` to start the server.
 
 ## Credits
 Written and designed by Jackson Lewis.
