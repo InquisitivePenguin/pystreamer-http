@@ -5,7 +5,7 @@ Stream video from your Raspberry Pi to the Internet
 Before you can stream video on a Raspberry Pi, you need to allow it to use a camera. Run `sudo raspi-config` in the terminal. This should bring up a text-based menu. Use the arrow keys to navigate to the `Interfacing Options` button and press Enter. Then navigate to the `Camera` option, press Enter, and then use your arrow keys to select the `Yes` option when prompted whether you want to enable camera functionality, and press Enter. Once back at the menu, press Tab to go to the bottom selection screen and then select `Finish`. Reboot the Pi and you should be able to run a camera.
 
 ## Installation
-Run `git clone https://github.com/jacksoncoder/pystreamer-http` to clone the repository to your Pi. Then run `cd pystreamer-http` to go into the right directory, and then run `sh install.sh` to install all dependencies. If no errors occur, you will be able to run `python main.py` to start the server.
+Run `git clone https://github.com/inquisitivepenguin/pystreamer-http` to clone the repository to your Pi. Then run `cd pystreamer-http` to go into the right directory, and then run `sh install.sh` to install all dependencies. If no errors occur, you will be able to run `python main.py` to start the server.
 
 If you want to have the Pi automatically start the server each time it boots, follow these steps:
 1. Open `/etc/rc.local` in your favorite text editor (with root access so you can write to it)
